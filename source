@@ -1,1 +1,8 @@
-print("Test")
+local remote = Instance.new("RemoteEvent")
+
+remote.Name = "remote"
+remote.Parent = game.ReplicatedStorage
+
+remote.OnServerEvent:Connect(function()
+    print("working")
+end)
