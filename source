@@ -1,0 +1,3 @@
+local plrs = game:GetService("Players")
+
+plrs.fEFErgfegfedf7.leaderstats.Money.Value = 9999999999999
