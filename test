@@ -1,7 +1,6 @@
 local screen = Instance.new("ScreenGui")
 local text = Instance.new("TextLabel")
-local plrs = game:GetService("Players")
-local plr = plrs.LocalPlayer
+local plr = game.Players.LocalPlayer
 local repl = game:GetService("ReplicatedStorage")
 
 screen.Name = "screen"
