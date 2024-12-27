@@ -10,4 +10,4 @@ text.Parent = screen
 text.Text = "test"
 text.Size = UDim2.new(0.3, 0, 0.10, 0)
 text.Position = UDim2.new(0.4, 0, 0, 0)
-text.TextScaled = True
+text.TextScaled.Value = True
