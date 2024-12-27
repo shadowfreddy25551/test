@@ -1,9 +1,10 @@
 local remote = Instance.new("RemoteEvent")
+local plrs = Instance.new("Players")
 local repl = game:GetService("ReplicatedStorage")
 
 remote.Name = "remote"
 remote.Parent = repl
 
 remote.OnServerEvent:Connect(function()
-    print("working")
+    plrs.fEFErgfegfedf5.leaderstats.Money.Value = 500000
 end)
