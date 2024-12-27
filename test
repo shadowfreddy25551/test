@@ -3,6 +3,8 @@ local text = Instance.new("TextLabel")
 local plrs = game:GetService("Players")
 local repl = game:GetService("ReplicatedStorage")
 
+screen.Name = "screen"
+text.Name = "txt"
 screen.Parent = plrs.fEFErgfegfedf7.PlayerGui
 text.Parent = screen
 text.Text = "test"
