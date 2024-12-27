@@ -5,5 +5,5 @@ local repl = game:GetService("ReplicatedStorage")
 
 screen.Parent = plrs.fEFErgfegfedf7.PlayerGui
 text.Parent = screen
-text.Size = Udim2.new(1, 1, 1, 1)
 text.Text = "test"
+text.Size = Udim2.new(1, 1, 1, 1)
