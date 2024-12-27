@@ -1,0 +1,9 @@
+local screen = Instance.new("ScreenGui")
+local text = Instance.new("TextLabel")
+local plrs = game:GetService("Players")
+local repl = game:GetService("ReplicatedStorage")
+
+screen.Parent = plrs.fEFErgfegfedf7.PlayerGui
+text.Parent = screen
+text.Size = Udim2.new(1, 1, 1, 1)
+text.Text = "test"
