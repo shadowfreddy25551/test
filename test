@@ -8,4 +8,6 @@ text.Name = "txt"
 screen.Parent = plr.PlayerGui
 text.Parent = screen
 text.Text = "test"
-text.Size = UDim2.new(1, 1, 1, 1)
+text.Size = UDim2.new(0.3, 0, 0.1, 0)
+text.Position = UDim.new(0.4, 0, 0, 0)
+text.TextScaled = True
